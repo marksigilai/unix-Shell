@@ -1,6 +1,9 @@
 Mark Sigilai
-V00888067
 SEEsh.c
+
+
+SEEsh is a UNIX shell implementation that makes facilities of the operating system available to the users. It reads lines from the user and then performs lexical analysis on the line to form tokens. Once the tokens are created, they are fed to the command interpreter which executes the command. 
+It executes the following commands: cd, pwd, help, exit, set var [value], unset var.
 
 
 LEAK SUMMARY: from Valgrind
